@@ -1,10 +1,17 @@
 .table {
     width: 100%;
-    min-width: 100vw;
+}
+
+td,
+th {
+    min-width: 100px;
+    max-width: 200px;
+    text-align: center;
 }
 
 .fixed-column {
-    width: 100px;
+    text-align: left !important;
+    width: 150px;
     position: sticky;
     background-color: white;
     z-index: 2;
@@ -16,9 +23,9 @@
 }
 
 .fixed-column:nth-child(2) {
-    left: 100px;
+    left: 150px;
 }
 
 .fixed-column:nth-child(3) {
-    left: 200px;
+    left: 300px;
 }
